@@ -32,7 +32,7 @@ class StageOne extends Forge2DGame with HasTappables,HasDraggables,HasKeyboardHa
 
     FlameAudio.bgm.play('bsm.mp3');
 
-
+    //
     //Camera
     camera.viewport = FixedResolutionViewport(camera.viewport.effectiveSize);
 
