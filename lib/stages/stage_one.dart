@@ -12,7 +12,6 @@ import 'package:planet_scape/components/ground.dart';
 import 'package:planet_scape/components/home_button.dart';
 import 'package:planet_scape/components/player_bar.dart';
 import '../components/player.dart';
-import '../components/text_component.dart';
 import '../components/wall.dart';
 import '../utils/controller.dart';
 
@@ -32,6 +31,7 @@ class StageOne extends Forge2DGame with HasTappables,HasDraggables,HasKeyboardHa
     ]);
 
     FlameAudio.bgm.play('bsm.mp3');
+
 
     //Camera
     camera.viewport = FixedResolutionViewport(camera.viewport.effectiveSize);
