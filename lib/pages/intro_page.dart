@@ -64,7 +64,7 @@ class IntroPage extends StatelessWidget {
             child: Column(
               children: <Widget>[
                 AboutListTile(
-                  applicationName: 'Flame_Behaviour',
+                  applicationName: 'Planet Scape',
                   applicationVersion: '1.0.0',
                   applicationLegalese: '© 2022 Norberto Martín Afonso',
                   aboutBoxChildren: aboutBoxChildren,
@@ -124,13 +124,13 @@ class IntroPage extends StatelessWidget {
                             onPressed: (){
                               showAboutDialog(
                                 context: context,
-                                applicationName: 'Tamogante',
-                                applicationVersion: '2.0.0',
+                                applicationName: 'Planet Scape',
+                                applicationVersion: '1.0.0',
                                 applicationLegalese: '© 2022 Norberto Martín Afonso',
                                 children: aboutBoxChildren,
                               );
                             },
-                            icon: const Icon(Icons.info_outline,color: Colors.white,)
+                            icon: const Icon(Icons.info_outline,color: Colors.black,)
                         )
                       ],
                     ),
